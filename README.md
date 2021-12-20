@@ -1,5 +1,9 @@
 # ts/node/express 보일러 플레이트
 
+히스토리 : https://velog.io/@walrus811/%ED%95%99%EC%83%9D-%EA%B4%80%EB%A6%AC-%EC%8B%9C%EC%8A%A4%ED%85%9C-2-API-%EB%B3%B4%EC%9D%BC%EB%9F%AC-%ED%94%8C%EB%A0%88%EC%9D%B4%ED%8A%B8nodeexpressts
+
+**Package.json***
+
 ```json
 {
   "name": "project-a-server",
