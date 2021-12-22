@@ -4,6 +4,7 @@
   "description": "Sutdent Management System REST API Server",
   "main": "dist/index.js",
   "scripts": {
+    "env": "npx cpy ./env_default . --rename=.env",
     "build": "npx tsc",
     "start": "node .",
     "dev": "npx cross-env DEBUG=* npx nodemon"
@@ -17,6 +18,7 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.2",
     "http-errors": "^2.0.0",
+    "mongodb": "^4.2.2",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
@@ -25,10 +27,12 @@
     "@types/express": "^4.17.13",
     "@types/http-errors": "^1.8.1",
     "@types/jest": "^27.0.3",
+    "@types/mongodb": "^4.0.7",
     "@types/morgan": "^1.9.3",
     "@types/node": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^5.7.0",
     "@typescript-eslint/parser": "^5.7.0",
+    "cpy-cli": "^3.1.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.5.0",
     "eslint-config-prettier": "^8.3.0",
